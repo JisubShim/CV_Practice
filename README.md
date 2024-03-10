@@ -1,2 +1,13 @@
 # CV_video_recorder
-My simple video recorder using OpenCV
+OpenCV를 이용하여 만든 WebCam Recorder입니다.
+
+### 기능 구현
+
+- 스페이스바를 눌러 녹화할 파일의 이름을 입력하면 녹화가 시작됩니다.
+- 다시 한 번 스페이스바를 누르면 녹화가 종료되고 저장됩니다.
+- c(소문자)와 C(대문자)를 눌러 Contrast(명암비)를 조절할 수 있습니다.
+- b와 B를 눌러 Brightness(밝기)를 조절할 수 있습니다.
+- f를 눌러 화면을 flip시킬 수 있습니다.
+- ESC를 눌러 Recorder를 종료합니다.
+- 녹화 중일 때에는 빨간색 원이 생깁니다.
+- 하단에 기능 설명 Text가 있고, 녹화를 시작하면 사라집니다.
