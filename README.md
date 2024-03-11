@@ -9,7 +9,7 @@ OpenCV를 이용하여 만든 WebCam Recorder입니다.
 ![bandicam2024-03-1103-35-59-489-ezgif com-video-to-gif-converter](https://github.com/JisubShim/CV_video_recorder/assets/118372554/94207894-f006-410a-9320-6219ae9833d2)
 <br/>
 
-#### - c(소문자)와 C(대문자)를 눌러 Contrast(명암비)를 조절할 수 있습니다.
+#### - c(소문자)와 C(대문자)를 눌러 Contrast(명암)를 조절할 수 있습니다.
 ![bandicam2024-03-1103-35-22-975-ezgif com-video-to-gif-converter](https://github.com/JisubShim/CV_video_recorder/assets/118372554/fc40462f-a875-4845-b11d-e9c4f1456b9e)
 <br/>
 
