@@ -12,7 +12,7 @@ class VideoRecorder:
         self.contrast = 1.0
         self.brightness = 0.0
         self.flip = False
-        self.show_help = False
+        self.show_help = True
         self.output_filename = None
 
         # 카메라 크기 확인
@@ -77,15 +77,12 @@ class VideoRecorder:
             # 필터 적용
             img = self.apply_filter(img)
 
-            # help HUD 표시
-            self.display_help(img)
-
             # 녹화 중일 때 빨간색 원 표시
             if self.record_mode:
                 cv.circle(img, (50, 50), 30, (0, 0, 255), -1)
 
-            # 녹화 중이 아닐 때만 Help 표시
-            if not self.record_mode and self.show_help:
+            # h로 기능 설명 HUD를 끄고 킬 수 있음
+            if self.show_help:
                 self.display_help(img)
 
             # 녹화
@@ -116,7 +113,7 @@ class VideoRecorder:
             elif key == ord('f'):
                 # 'f' 키로 Flip 값을 토글
                 self.flip = not self.flip
-            elif key == ord('H'):
+            elif key == ord('h'):
                 # 'H' 키로 Help 표시 여부 토글
                 self.show_help = not self.show_help
             elif key == 27:  # ESC 키로 종료
