@@ -2,8 +2,9 @@
 OpenCV를 통해 카툰 필터를 구현해 보았습니다.
 
 #### 이 알고리즘으로 만화 같은 느낌이 잘 표현되는 사진
-![스크린샷 2024-03-24 162201](https://github.com/JisubShim/CV_Practice/assets/118372554/18b54fe8-785d-415f-b2c8-20696748db26)
+![스크린샷 2024-03-24 162201](https://github.com/JisubShim/CV_Practice/assets/118372554/18b54fe8-785d-415f-b2c8-20696748db26)<br>
 사진출처 : https://www.seoultech.ac.kr/intro/campinfo/camper/information/
+<br>
 #### 이 알고리즘으로 만화 같은 느낌이 잘 표현되지 않는 사진
 ![스크린샷 2024-03-24 162132](https://github.com/JisubShim/CV_Practice/assets/118372554/fb0c7a59-2c08-459b-a85b-f56213822cda)
 
