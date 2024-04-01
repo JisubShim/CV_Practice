@@ -24,7 +24,7 @@ def select_img_from_video(video_file, board_pattern, select_all=False, wait_msec
             # 키 이벤트 구현
             key = cv.waitKey(wait_msec)
             if key == ord(' '):             # Space: 정지
-                complete, pts = cv.findChessboardCorners(img, board_pattern)
+                complete, pts = cv.findChessboardCorners(img, board_pattern) 
                 cv.drawChessboardCorners(display, board_pattern, pts, complete)
                 cv.imshow(wnd_name, display)
                 key = cv.waitKey()
@@ -54,7 +54,7 @@ def calib_camera_from_chessboard(images, board_pattern, board_cellsize, K=None, 
     return cv.calibrateCamera(obj_points, img_points, gray.shape[::-1], K, dist_coeff, flags=calib_flags)
 
 if __name__ == '__main__':
-    video_file = 'chessboard.avi'
+    video_file = 'board.avi' # 작업할 영상 넣기!
     board_pattern = (10, 7)
     board_cellsize = 0.025
 
