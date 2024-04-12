@@ -8,6 +8,7 @@ CV_calibration_&_distortion_correction으로 camera calibration 결과 얻기
 <br>
 결과를 코드에 적용
 ![스크린샷 2024-04-13 020928](https://github.com/JisubShim/CV_Practice/assets/118372554/1c856f3e-e2c7-4d7c-9ce7-72a504f57182)
+<br>
 #### AR object visualization
 2. AR 물체 표시
 그 결과를 이용하여 체스보드 가운데 파란색 직사각형을 출력
