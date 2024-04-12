@@ -1,4 +1,4 @@
-# CV_calibration_AR
+# CV_camera_pose_AR
 내 카메라(CV_video_recorder)를 캘리브레이션한 결과를 이용해 카메라의 자세를 알아내고, 영상에 간단한 AR 물체(직사각형)를 표시하기
 
 #### Camera pose estimation
